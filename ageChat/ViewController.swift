@@ -9,6 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var addAge: UITextField!
+    
+    @IBOutlet weak var resultat: UILabel!
+    
+    @IBAction func valider(sender: AnyObject) {
+    }
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
