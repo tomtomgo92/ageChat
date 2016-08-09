@@ -16,6 +16,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultat: UILabel!
     
     @IBAction func valider(sender: AnyObject) {
+        
+        var ageDuChat = Int(addAge.text!)!
+        
+        ageDuChat = ageDuChat * 7
+        
+        resultat.text = "mon chat a \(ageDuChat) ans"
+        
+        print(ageDuChat)
+        
     }
     
     
