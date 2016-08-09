@@ -22,9 +22,6 @@ class ViewController: UIViewController {
         ageDuChat = ageDuChat * 7
         
         resultat.text = "mon chat a \(ageDuChat) ans"
-        
-        print(ageDuChat)
-        
     }
     
     
